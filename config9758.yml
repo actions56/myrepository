@@ -7,67 +7,61 @@ dns:
   nameserver:
     - 119.29.29.29
     - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
-
 proxies:
-  - {"name":"oracle_us","type":"vmess","server":"http.fanx.eu.org","port":80,"cipher":"auto","uuid":"76ff7ecd-c9b0-4f96-a3dd-98dc67078433","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/http"}}
-  - {"name":"vultr-JP","type":"vmess","server":"45.76.218.121","port":37335,"cipher":"auto","uuid":"782850b1-ed51-41bf-ad30-eef815e640ff","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"wiki 洛杉矶2SSR","type":"ssr","server":"ssr1.ssrfree8.xyz","port":12345,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a"}
+  - {"name":"oracle_ssr_sg","type":"ss","server":"43.159.47.137","port":9001,"password":"chanchanchan","cipher":"aes-256-cfb"}
+  - {"name":"Oracle|vmess|美国","type":"vmess","server":"1.239000.xyz","port":443,"cipher":"auto","uuid":"80e6f8a9-6620-4b63-a254-994381d99ca3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"1.239000.xyz","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"1.239000.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - oracle_us
-      - vultr-JP
       - wiki 洛杉矶2SSR
+      - oracle_ssr_sg
+      - Oracle|vmess|美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - oracle_us
-      - vultr-JP
       - wiki 洛杉矶2SSR
+      - oracle_ssr_sg
+      - Oracle|vmess|美国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - oracle_us
-      - vultr-JP
       - wiki 洛杉矶2SSR
+      - oracle_ssr_sg
+      - Oracle|vmess|美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - oracle_us
-      - vultr-JP
       - wiki 洛杉矶2SSR
+      - oracle_ssr_sg
+      - Oracle|vmess|美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - oracle_us
-      - vultr-JP
       - wiki 洛杉矶2SSR
+      - oracle_ssr_sg
+      - Oracle|vmess|美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - oracle_us
-      - vultr-JP
       - wiki 洛杉矶2SSR
+      - oracle_ssr_sg
+      - Oracle|vmess|美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,9 +84,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - oracle_us
-      - vultr-JP
       - wiki 洛杉矶2SSR
+      - oracle_ssr_sg
+      - Oracle|vmess|美国
 
 rules:
 # 本地/局域网地址
