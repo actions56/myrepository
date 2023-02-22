@@ -7,61 +7,88 @@ dns:
   nameserver:
     - 119.29.29.29
     - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+
 proxies:
-  - {"name":"wiki 洛杉矶2SSR","type":"ssr","server":"ssr1.ssrfree8.xyz","port":12345,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a"}
-  - {"name":"oracle_ssr_sg","type":"ss","server":"43.159.47.137","port":9001,"password":"chanchanchan","cipher":"aes-256-cfb"}
-  - {"name":"Oracle|vmess|美国","type":"vmess","server":"1.239000.xyz","port":443,"cipher":"auto","uuid":"80e6f8a9-6620-4b63-a254-994381d99ca3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"1.239000.xyz","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"1.239000.xyz"}}}
+  - {"name":"甲骨文-日本 1号线 Vmess","type":"vmess","server":"oracle01.jiting.space","port":41884,"cipher":"auto","uuid":"d420fad8-44bf-4868-8211-c25edd7af92a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"甲骨文 韩国春川 CDN","type":"vmess","server":"cc1cf.alieszvps.cf","port":8443,"cipher":"auto","uuid":"4f9c93a6-97d2-4fec-cd30-9b671764be08","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"lnl-trojan-tcp","type":"trojan","server":"sybtrojan.cyou","port":6443,"udp":true,"password":"27d1081944e48d2d","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"ln_trojan-tcp","type":"trojan","server":"liun.one","port":6443,"udp":true,"password":"c451f2f6","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"lnl-vmess-ws-tls","type":"vmess","server":"sybtrojan.cyou","port":6443,"cipher":"auto","uuid":"18fe9bdf-3703-4e4e-8fd8-ed929b2cf435","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pdfyvws"}}
+  - {"name":"ln_vmess-ws-tls","type":"vmess","server":"liun.one","port":6443,"cipher":"auto","uuid":"c451f2f6-74d9-4724-adce-42fb7e844d9c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Y3ECOV61"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - wiki 洛杉矶2SSR
-      - oracle_ssr_sg
-      - Oracle|vmess|美国
+      - 甲骨文-日本 1号线 Vmess
+      - 甲骨文 韩国春川 CDN
+      - lnl-trojan-tcp
+      - ln_trojan-tcp
+      - lnl-vmess-ws-tls
+      - ln_vmess-ws-tls
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - wiki 洛杉矶2SSR
-      - oracle_ssr_sg
-      - Oracle|vmess|美国
+      - 甲骨文-日本 1号线 Vmess
+      - 甲骨文 韩国春川 CDN
+      - lnl-trojan-tcp
+      - ln_trojan-tcp
+      - lnl-vmess-ws-tls
+      - ln_vmess-ws-tls
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - wiki 洛杉矶2SSR
-      - oracle_ssr_sg
-      - Oracle|vmess|美国
+      - 甲骨文-日本 1号线 Vmess
+      - 甲骨文 韩国春川 CDN
+      - lnl-trojan-tcp
+      - ln_trojan-tcp
+      - lnl-vmess-ws-tls
+      - ln_vmess-ws-tls
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - wiki 洛杉矶2SSR
-      - oracle_ssr_sg
-      - Oracle|vmess|美国
+      - 甲骨文-日本 1号线 Vmess
+      - 甲骨文 韩国春川 CDN
+      - lnl-trojan-tcp
+      - ln_trojan-tcp
+      - lnl-vmess-ws-tls
+      - ln_vmess-ws-tls
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - wiki 洛杉矶2SSR
-      - oracle_ssr_sg
-      - Oracle|vmess|美国
+      - 甲骨文-日本 1号线 Vmess
+      - 甲骨文 韩国春川 CDN
+      - lnl-trojan-tcp
+      - ln_trojan-tcp
+      - lnl-vmess-ws-tls
+      - ln_vmess-ws-tls
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - wiki 洛杉矶2SSR
-      - oracle_ssr_sg
-      - Oracle|vmess|美国
+      - 甲骨文-日本 1号线 Vmess
+      - 甲骨文 韩国春川 CDN
+      - lnl-trojan-tcp
+      - ln_trojan-tcp
+      - lnl-vmess-ws-tls
+      - ln_vmess-ws-tls
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,9 +111,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - wiki 洛杉矶2SSR
-      - oracle_ssr_sg
-      - Oracle|vmess|美国
+      - 甲骨文-日本 1号线 Vmess
+      - 甲骨文 韩国春川 CDN
+      - lnl-trojan-tcp
+      - ln_trojan-tcp
+      - lnl-vmess-ws-tls
+      - ln_vmess-ws-tls
 
 rules:
 # 本地/局域网地址
