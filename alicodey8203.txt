@@ -14,95 +14,95 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"aliyun_HK1","type":"vmess","server":"cloud.jumpershao.top","port":448,"cipher":"auto","uuid":"52b8c3d3-4f86-4207-9da4-4b641da0fe18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/993522c89/","headers":{"host":"cloud.jumpershao.top"}}}
-  - {"name":"aliyun_HK2","type":"vmess","server":"cloud.jumpershao.top","port":448,"cipher":"auto","uuid":"52b8c3d3-4f86-4207-9da4-4b641da0fe18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/993522c89/","headers":{"host":"cloud.jumpershao.top"}}}
-  - {"name":"aliyun_HK3","type":"vmess","server":"cloud.jumpershao.top","port":448,"cipher":"auto","uuid":"52b8c3d3-4f86-4207-9da4-4b641da0fe18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/993522c89/","headers":{"host":"cloud.jumpershao.top"}}}
-  - {"name":"aliyun_HK4","type":"vmess","server":"cloud.jumpershao.top","port":448,"cipher":"auto","uuid":"52b8c3d3-4f86-4207-9da4-4b641da0fe18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/993522c89/","headers":{"host":"cloud.jumpershao.top"}}}
-  - {"name":"aliyun_HK5","type":"vmess","server":"cloud.jumpershao.top","port":448,"cipher":"auto","uuid":"52b8c3d3-4f86-4207-9da4-4b641da0fe18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/993522c89/","headers":{"host":"cloud.jumpershao.top"}}}
-  - {"name":"aliyun_HK6","type":"vmess","server":"cloud.jumpershao.top","port":448,"cipher":"auto","uuid":"52b8c3d3-4f86-4207-9da4-4b641da0fe18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/993522c89/","headers":{"host":"cloud.jumpershao.top"}}}
-  - {"name":"aliyun_HK7","type":"vmess","server":"cloud.jumpershao.top","port":448,"cipher":"auto","uuid":"52b8c3d3-4f86-4207-9da4-4b641da0fe18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/993522c89/","headers":{"host":"cloud.jumpershao.top"}}}
-  - {"name":"aliyun_HK8","type":"vmess","server":"cloud.jumpershao.top","port":448,"cipher":"auto","uuid":"52b8c3d3-4f86-4207-9da4-4b641da0fe18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/993522c89/","headers":{"host":"cloud.jumpershao.top"}}}
+  - {"name":"WZ JP S1(Android X)","type":"ss","server":"gdcm.r1u.cn","port":27261,"password":"a55538bc-cbad-4bd5-a114-f2b79b251695","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"WZ JP S2(Android X)","type":"ss","server":"gdcm.r1u.cn","port":27261,"password":"a55538bc-cbad-4bd5-a114-f2b79b251695","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"WZ JP D1(Android X)","type":"ss","server":"gdcm.r1u.cn","port":27261,"password":"a55538bc-cbad-4bd5-a114-f2b79b251695","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"WZ JP D2(Android X)","type":"ss","server":"gdcm.r1u.cn","port":27261,"password":"a55538bc-cbad-4bd5-a114-f2b79b251695","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"WZ JP R1(Android X)","type":"ss","server":"gdcm.r1u.cn","port":27261,"password":"a55538bc-cbad-4bd5-a114-f2b79b251695","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"WZ JP R2(Android X)","type":"ss","server":"gdcm.r1u.cn","port":27261,"password":"a55538bc-cbad-4bd5-a114-f2b79b251695","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"WZ JP T1(Android X)","type":"ss","server":"gdcm.r1u.cn","port":27261,"password":"a55538bc-cbad-4bd5-a114-f2b79b251695","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"WZ JP T2(Android X)","type":"ss","server":"gdcm.r1u.cn","port":27261,"password":"a55538bc-cbad-4bd5-a114-f2b79b251695","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - aliyun_HK1
-      - aliyun_HK2
-      - aliyun_HK3
-      - aliyun_HK4
-      - aliyun_HK5
-      - aliyun_HK6
-      - aliyun_HK7
-      - aliyun_HK8
+      - WZ JP S1(Android X)
+      - WZ JP S2(Android X)
+      - WZ JP D1(Android X)
+      - WZ JP D2(Android X)
+      - WZ JP R1(Android X)
+      - WZ JP R2(Android X)
+      - WZ JP T1(Android X)
+      - WZ JP T2(Android X)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - aliyun_HK1
-      - aliyun_HK2
-      - aliyun_HK3
-      - aliyun_HK4
-      - aliyun_HK5
-      - aliyun_HK6
-      - aliyun_HK7
-      - aliyun_HK8
+      - WZ JP S1(Android X)
+      - WZ JP S2(Android X)
+      - WZ JP D1(Android X)
+      - WZ JP D2(Android X)
+      - WZ JP R1(Android X)
+      - WZ JP R2(Android X)
+      - WZ JP T1(Android X)
+      - WZ JP T2(Android X)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - aliyun_HK1
-      - aliyun_HK2
-      - aliyun_HK3
-      - aliyun_HK4
-      - aliyun_HK5
-      - aliyun_HK6
-      - aliyun_HK7
-      - aliyun_HK8
+      - WZ JP S1(Android X)
+      - WZ JP S2(Android X)
+      - WZ JP D1(Android X)
+      - WZ JP D2(Android X)
+      - WZ JP R1(Android X)
+      - WZ JP R2(Android X)
+      - WZ JP T1(Android X)
+      - WZ JP T2(Android X)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - aliyun_HK1
-      - aliyun_HK2
-      - aliyun_HK3
-      - aliyun_HK4
-      - aliyun_HK5
-      - aliyun_HK6
-      - aliyun_HK7
-      - aliyun_HK8
+      - WZ JP S1(Android X)
+      - WZ JP S2(Android X)
+      - WZ JP D1(Android X)
+      - WZ JP D2(Android X)
+      - WZ JP R1(Android X)
+      - WZ JP R2(Android X)
+      - WZ JP T1(Android X)
+      - WZ JP T2(Android X)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - aliyun_HK1
-      - aliyun_HK2
-      - aliyun_HK3
-      - aliyun_HK4
-      - aliyun_HK5
-      - aliyun_HK6
-      - aliyun_HK7
-      - aliyun_HK8
+      - WZ JP S1(Android X)
+      - WZ JP S2(Android X)
+      - WZ JP D1(Android X)
+      - WZ JP D2(Android X)
+      - WZ JP R1(Android X)
+      - WZ JP R2(Android X)
+      - WZ JP T1(Android X)
+      - WZ JP T2(Android X)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - aliyun_HK1
-      - aliyun_HK2
-      - aliyun_HK3
-      - aliyun_HK4
-      - aliyun_HK5
-      - aliyun_HK6
-      - aliyun_HK7
-      - aliyun_HK8
+      - WZ JP S1(Android X)
+      - WZ JP S2(Android X)
+      - WZ JP D1(Android X)
+      - WZ JP D2(Android X)
+      - WZ JP R1(Android X)
+      - WZ JP R2(Android X)
+      - WZ JP T1(Android X)
+      - WZ JP T2(Android X)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,14 +125,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - aliyun_HK1
-      - aliyun_HK2
-      - aliyun_HK3
-      - aliyun_HK4
-      - aliyun_HK5
-      - aliyun_HK6
-      - aliyun_HK7
-      - aliyun_HK8
+      - WZ JP S1(Android X)
+      - WZ JP S2(Android X)
+      - WZ JP D1(Android X)
+      - WZ JP D2(Android X)
+      - WZ JP R1(Android X)
+      - WZ JP R2(Android X)
+      - WZ JP T1(Android X)
+      - WZ JP T2(Android X)
 
 rules:
 # 本地/局域网地址
