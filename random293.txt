@@ -14,123 +14,95 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"D SG C1","type":"vmess","server":"live02.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"1.day.hi.cn"}}}
-  - {"name":"D SG C2","type":"vmess","server":"live02.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"1.day.hi.cn"}}}
-  - {"name":"D KR C3","type":"vmess","server":"live08.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"4.day.hi.cn"}}}
-  - {"name":"D KR C4","type":"vmess","server":"live08.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"4.day.hi.cn"}}}
-  - {"name":"D TW C5","type":"vmess","server":"live10.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/1f42f0ef9d0257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_7893.ts","headers":{"host":"5.day.hi.cn"}}}
-  - {"name":"D TW C6","type":"vmess","server":"live10.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/1f42f0ef9d0257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_7893.ts","headers":{"host":"5.day.hi.cn"}}}
-  - {"name":"D SG C7","type":"vmess","server":"live02.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"1.day.hi.cn"}}}
-  - {"name":"D SG C8","type":"vmess","server":"live02.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"1.day.hi.cn"}}}
-  - {"name":"D KR C9","type":"vmess","server":"live08.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"4.day.hi.cn"}}}
-  - {"name":"D KR C10","type":"vmess","server":"live08.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"4.day.hi.cn"}}}
-  - {"name":"D TW C11","type":"vmess","server":"live10.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/1f42f0ef9d0257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_7893.ts","headers":{"host":"5.day.hi.cn"}}}
-  - {"name":"D TW C12","type":"vmess","server":"live10.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"6ae48cc1-eb59-4ee6-baa6-3be7137b12c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/1f42f0ef9d0257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_7893.ts","headers":{"host":"5.day.hi.cn"}}}
+  - {"name":"kvance新加坡SG-专线1","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"kvance新加坡SG-专线2","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"kvance新加坡SG-专线3","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"kvance香港HK-专线1","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"kvance香港HK-专线2","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"kvance香港HK-专线3","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"kvance香港HK-专线4","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"kvance香港HK-专线5","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - D SG C1
-      - D SG C2
-      - D KR C3
-      - D KR C4
-      - D TW C5
-      - D TW C6
-      - D SG C7
-      - D SG C8
-      - D KR C9
-      - D KR C10
-      - D TW C11
-      - D TW C12
+      - kvance新加坡SG-专线1
+      - kvance新加坡SG-专线2
+      - kvance新加坡SG-专线3
+      - kvance香港HK-专线1
+      - kvance香港HK-专线2
+      - kvance香港HK-专线3
+      - kvance香港HK-专线4
+      - kvance香港HK-专线5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - D SG C1
-      - D SG C2
-      - D KR C3
-      - D KR C4
-      - D TW C5
-      - D TW C6
-      - D SG C7
-      - D SG C8
-      - D KR C9
-      - D KR C10
-      - D TW C11
-      - D TW C12
+      - kvance新加坡SG-专线1
+      - kvance新加坡SG-专线2
+      - kvance新加坡SG-专线3
+      - kvance香港HK-专线1
+      - kvance香港HK-专线2
+      - kvance香港HK-专线3
+      - kvance香港HK-专线4
+      - kvance香港HK-专线5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - D SG C1
-      - D SG C2
-      - D KR C3
-      - D KR C4
-      - D TW C5
-      - D TW C6
-      - D SG C7
-      - D SG C8
-      - D KR C9
-      - D KR C10
-      - D TW C11
-      - D TW C12
+      - kvance新加坡SG-专线1
+      - kvance新加坡SG-专线2
+      - kvance新加坡SG-专线3
+      - kvance香港HK-专线1
+      - kvance香港HK-专线2
+      - kvance香港HK-专线3
+      - kvance香港HK-专线4
+      - kvance香港HK-专线5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - D SG C1
-      - D SG C2
-      - D KR C3
-      - D KR C4
-      - D TW C5
-      - D TW C6
-      - D SG C7
-      - D SG C8
-      - D KR C9
-      - D KR C10
-      - D TW C11
-      - D TW C12
+      - kvance新加坡SG-专线1
+      - kvance新加坡SG-专线2
+      - kvance新加坡SG-专线3
+      - kvance香港HK-专线1
+      - kvance香港HK-专线2
+      - kvance香港HK-专线3
+      - kvance香港HK-专线4
+      - kvance香港HK-专线5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - D SG C1
-      - D SG C2
-      - D KR C3
-      - D KR C4
-      - D TW C5
-      - D TW C6
-      - D SG C7
-      - D SG C8
-      - D KR C9
-      - D KR C10
-      - D TW C11
-      - D TW C12
+      - kvance新加坡SG-专线1
+      - kvance新加坡SG-专线2
+      - kvance新加坡SG-专线3
+      - kvance香港HK-专线1
+      - kvance香港HK-专线2
+      - kvance香港HK-专线3
+      - kvance香港HK-专线4
+      - kvance香港HK-专线5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - D SG C1
-      - D SG C2
-      - D KR C3
-      - D KR C4
-      - D TW C5
-      - D TW C6
-      - D SG C7
-      - D SG C8
-      - D KR C9
-      - D KR C10
-      - D TW C11
-      - D TW C12
+      - kvance新加坡SG-专线1
+      - kvance新加坡SG-专线2
+      - kvance新加坡SG-专线3
+      - kvance香港HK-专线1
+      - kvance香港HK-专线2
+      - kvance香港HK-专线3
+      - kvance香港HK-专线4
+      - kvance香港HK-专线5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -153,18 +125,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - D SG C1
-      - D SG C2
-      - D KR C3
-      - D KR C4
-      - D TW C5
-      - D TW C6
-      - D SG C7
-      - D SG C8
-      - D KR C9
-      - D KR C10
-      - D TW C11
-      - D TW C12
+      - kvance新加坡SG-专线1
+      - kvance新加坡SG-专线2
+      - kvance新加坡SG-专线3
+      - kvance香港HK-专线1
+      - kvance香港HK-专线2
+      - kvance香港HK-专线3
+      - kvance香港HK-专线4
+      - kvance香港HK-专线5
 
 rules:
 # 本地/局域网地址
