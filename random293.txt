@@ -14,95 +14,109 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"kvance新加坡SG-专线1","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"kvance新加坡SG-专线2","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"kvance新加坡SG-专线3","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"kvance香港HK-专线1","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"kvance香港HK-专线2","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"kvance香港HK-专线3","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"kvance香港HK-专线4","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"kvance香港HK-专线5","type":"vmess","server":"vpn.tantantan.xyz","port":666,"cipher":"auto","uuid":"6645c4c7-f786-4136-887c-5529008c9867","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"VPS-JP01","type":"trojan","server":"150.66.13.75","port":443,"udp":true,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","sni":"tk15.1coinvp.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"VPS-JP02","type":"trojan","server":"160.16.115.103","port":443,"udp":true,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","sni":"tk14.1coinvp.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"VPS-JP03","type":"trojan","server":"150.66.13.75","port":443,"udp":true,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","sni":"tk15.1coinvp.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"VPS-JP04","type":"trojan","server":"160.16.115.103","port":443,"udp":true,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","sni":"tk14.1coinvp.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"VPS-JP05","type":"trojan","server":"160.16.115.103","port":443,"udp":true,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","sni":"tk14.1coinvp.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"VPS-JP06","type":"trojan","server":"150.66.13.75","port":443,"udp":true,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","sni":"tk15.1coinvp.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"VPS-JP07","type":"trojan","server":"160.16.115.103","port":443,"udp":true,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","sni":"tk14.1coinvp.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"VPS-JP08","type":"trojan","server":"150.66.13.75","port":443,"udp":true,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","sni":"tk15.1coinvp.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"VPS-JP09","type":"trojan","server":"160.16.115.103","port":443,"udp":true,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","sni":"tk14.1coinvp.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"VPS-JP10","type":"trojan","server":"160.16.115.103","port":443,"udp":true,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","sni":"tk14.1coinvp.vip","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - kvance新加坡SG-专线1
-      - kvance新加坡SG-专线2
-      - kvance新加坡SG-专线3
-      - kvance香港HK-专线1
-      - kvance香港HK-专线2
-      - kvance香港HK-专线3
-      - kvance香港HK-专线4
-      - kvance香港HK-专线5
+      - VPS-JP01
+      - VPS-JP02
+      - VPS-JP03
+      - VPS-JP04
+      - VPS-JP05
+      - VPS-JP06
+      - VPS-JP07
+      - VPS-JP08
+      - VPS-JP09
+      - VPS-JP10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - kvance新加坡SG-专线1
-      - kvance新加坡SG-专线2
-      - kvance新加坡SG-专线3
-      - kvance香港HK-专线1
-      - kvance香港HK-专线2
-      - kvance香港HK-专线3
-      - kvance香港HK-专线4
-      - kvance香港HK-专线5
+      - VPS-JP01
+      - VPS-JP02
+      - VPS-JP03
+      - VPS-JP04
+      - VPS-JP05
+      - VPS-JP06
+      - VPS-JP07
+      - VPS-JP08
+      - VPS-JP09
+      - VPS-JP10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - kvance新加坡SG-专线1
-      - kvance新加坡SG-专线2
-      - kvance新加坡SG-专线3
-      - kvance香港HK-专线1
-      - kvance香港HK-专线2
-      - kvance香港HK-专线3
-      - kvance香港HK-专线4
-      - kvance香港HK-专线5
+      - VPS-JP01
+      - VPS-JP02
+      - VPS-JP03
+      - VPS-JP04
+      - VPS-JP05
+      - VPS-JP06
+      - VPS-JP07
+      - VPS-JP08
+      - VPS-JP09
+      - VPS-JP10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - kvance新加坡SG-专线1
-      - kvance新加坡SG-专线2
-      - kvance新加坡SG-专线3
-      - kvance香港HK-专线1
-      - kvance香港HK-专线2
-      - kvance香港HK-专线3
-      - kvance香港HK-专线4
-      - kvance香港HK-专线5
+      - VPS-JP01
+      - VPS-JP02
+      - VPS-JP03
+      - VPS-JP04
+      - VPS-JP05
+      - VPS-JP06
+      - VPS-JP07
+      - VPS-JP08
+      - VPS-JP09
+      - VPS-JP10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - kvance新加坡SG-专线1
-      - kvance新加坡SG-专线2
-      - kvance新加坡SG-专线3
-      - kvance香港HK-专线1
-      - kvance香港HK-专线2
-      - kvance香港HK-专线3
-      - kvance香港HK-专线4
-      - kvance香港HK-专线5
+      - VPS-JP01
+      - VPS-JP02
+      - VPS-JP03
+      - VPS-JP04
+      - VPS-JP05
+      - VPS-JP06
+      - VPS-JP07
+      - VPS-JP08
+      - VPS-JP09
+      - VPS-JP10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - kvance新加坡SG-专线1
-      - kvance新加坡SG-专线2
-      - kvance新加坡SG-专线3
-      - kvance香港HK-专线1
-      - kvance香港HK-专线2
-      - kvance香港HK-专线3
-      - kvance香港HK-专线4
-      - kvance香港HK-专线5
+      - VPS-JP01
+      - VPS-JP02
+      - VPS-JP03
+      - VPS-JP04
+      - VPS-JP05
+      - VPS-JP06
+      - VPS-JP07
+      - VPS-JP08
+      - VPS-JP09
+      - VPS-JP10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,14 +139,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - kvance新加坡SG-专线1
-      - kvance新加坡SG-专线2
-      - kvance新加坡SG-专线3
-      - kvance香港HK-专线1
-      - kvance香港HK-专线2
-      - kvance香港HK-专线3
-      - kvance香港HK-专线4
-      - kvance香港HK-专线5
+      - VPS-JP01
+      - VPS-JP02
+      - VPS-JP03
+      - VPS-JP04
+      - VPS-JP05
+      - VPS-JP06
+      - VPS-JP07
+      - VPS-JP08
+      - VPS-JP09
+      - VPS-JP10
 
 rules:
 # 本地/局域网地址
