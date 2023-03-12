@@ -14,137 +14,151 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"D JP C1","type":"vmess","server":"live04.suijiceshi.xyz","port":8080,"cipher":"auto","uuid":"b605e314-f6f8-481e-9c74-e8d5621e379d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"2.81yn.com"}}}
-  - {"name":"D JP C2","type":"vmess","server":"live04.suijiceshi.xyz","port":8080,"cipher":"auto","uuid":"b605e314-f6f8-481e-9c74-e8d5621e379d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"2.81yn.com"}}}
-  - {"name":"D JP C3","type":"vmess","server":"live04.suijiceshi.xyz","port":8080,"cipher":"auto","uuid":"b605e314-f6f8-481e-9c74-e8d5621e379d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"2.81yn.com"}}}
-  - {"name":"D TW C1","type":"vmess","server":"live10.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"b605e314-f6f8-481e-9c74-e8d5621e379d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/1f42f0ef9d0257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_7893.ts","headers":{"host":"5.day.hi.cn"}}}
-  - {"name":"D TW C2","type":"vmess","server":"live10.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"b605e314-f6f8-481e-9c74-e8d5621e379d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/1f42f0ef9d0257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_7893.ts","headers":{"host":"5.day.hi.cn"}}}
-  - {"name":"D TW C3","type":"vmess","server":"live10.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"b605e314-f6f8-481e-9c74-e8d5621e379d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/1f42f0ef9d0257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_7893.ts","headers":{"host":"5.day.hi.cn"}}}
-  - {"name":"D HK C1","type":"vmess","server":"live12.suijiceshi.xyz","port":8080,"cipher":"auto","uuid":"b605e314-f6f8-481e-9c74-e8d5621e379d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xbov/7lekbe0p5axwz0z23d8kdtdy5d1uv3gh/media_3003.ts","headers":{"host":"6.day.hi.cn"}}}
-  - {"name":"D HK C2","type":"vmess","server":"live12.suijiceshi.xyz","port":8080,"cipher":"auto","uuid":"b605e314-f6f8-481e-9c74-e8d5621e379d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xbov/7lekbe0p5axwz0z23d8kdtdy5d1uv3gh/media_3003.ts","headers":{"host":"6.day.hi.cn"}}}
-  - {"name":"D KR C1","type":"vmess","server":"live08.suijiceshi.xyz","port":8080,"cipher":"auto","uuid":"b605e314-f6f8-481e-9c74-e8d5621e379d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"4.day.hi.cn"}}}
-  - {"name":"D KR C2","type":"vmess","server":"live08.suijiceshi.xyz","port":8080,"cipher":"auto","uuid":"b605e314-f6f8-481e-9c74-e8d5621e379d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"4.day.hi.cn"}}}
-  - {"name":"JP C4","type":"vmess","server":"live04.suijiceshi.xyz","port":8080,"cipher":"auto","uuid":"b605e314-f6f8-481e-9c74-e8d5621e379d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"2.81yn.com"}}}
-  - {"name":"D TW B1","type":"trojan","server":"szct.xn--dlq110j6ul.cc","port":33325,"udp":true,"password":"ba699105-7fcf-4af0-8415-ad29b6e58d62","sni":"data.amazonwebservicess.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"D TW B2","type":"trojan","server":"jmcm.xn--dlq110j6ul.cc","port":14743,"udp":true,"password":"ba699105-7fcf-4af0-8415-ad29b6e58d62","sni":"data.amazonwebservicess.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"D TW B3","type":"trojan","server":"szct.xn--dlq110j6ul.cc","port":27778,"udp":true,"password":"ba699105-7fcf-4af0-8415-ad29b6e58d62","sni":"data.amazonwebservicess.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"D HK C1","type":"ss","server":"hk.lpvs.com","port":55424,"password":"6LsY77C8pE","cipher":"aes-256-gcm"}
+  - {"name":"D HK C2","type":"ss","server":"hk.lpvs.com","port":55424,"password":"6LsY77C8pE","cipher":"aes-256-gcm"}
+  - {"name":"D SG C1","type":"ss","server":"osaka.route.place","port":30330,"password":"428718219491","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"D SG C2","type":"ss","server":"osaka.route.place","port":30333,"password":"428760624854","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"D JP C1","type":"vmess","server":"google.weilai3d.com","port":443,"cipher":"auto","uuid":"53f1555a-b5a8-51c0-8ae1-c367b9afe7d3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/weilai3d"}}
+  - {"name":"D JP C2","type":"vmess","server":"google.weilai3d.com","port":443,"cipher":"auto","uuid":"53f1555a-b5a8-51c0-8ae1-c367b9afe7d3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/weilai3d"}}
+  - {"name":"D JP C3","type":"vmess","server":"google.weilai3d.com","port":443,"cipher":"auto","uuid":"53f1555a-b5a8-51c0-8ae1-c367b9afe7d3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/weilai3d"}}
+  - {"name":"D KR C1","type":"trojan","server":"kr-moses.voewl.com","port":51514,"udp":true,"password":"8USMzEEdQn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"D KR C2","type":"trojan","server":"kr-moses.voewl.com","port":51514,"udp":true,"password":"8USMzEEdQn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"D KR C3","type":"trojan","server":"kr-moses.voewl.com","port":51514,"udp":true,"password":"8USMzEEdQn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"D US C1_1","type":"ss","server":"sczx.bzlxzl.com","port":57008,"password":"GjQsDE","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"D US C1_2","type":"trojan","server":"kr-moses.voewl.com","port":51514,"udp":true,"password":"8USMzEEdQn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"D US C3","type":"trojan","server":"kr-moses.voewl.com","port":51514,"udp":true,"password":"8USMzEEdQn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"D TW C1","type":"trojan","server":"kr-moses.voewl.com","port":51514,"udp":true,"password":"8USMzEEdQn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"D TW C2","type":"trojan","server":"kr-moses.voewl.com","port":51514,"udp":true,"password":"8USMzEEdQn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"D TW C3","type":"ss","server":"sczx.bzlxzl.com","port":57008,"password":"GjQsDE","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - D HK C1
+      - D HK C2
+      - D SG C1
+      - D SG C2
       - D JP C1
       - D JP C2
       - D JP C3
+      - D KR C1
+      - D KR C2
+      - D KR C3
+      - D US C1_1
+      - D US C1_2
+      - D US C3
       - D TW C1
       - D TW C2
       - D TW C3
-      - D HK C1
-      - D HK C2
-      - D KR C1
-      - D KR C2
-      - JP C4
-      - D TW B1
-      - D TW B2
-      - D TW B3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - D HK C1
+      - D HK C2
+      - D SG C1
+      - D SG C2
       - D JP C1
       - D JP C2
       - D JP C3
+      - D KR C1
+      - D KR C2
+      - D KR C3
+      - D US C1_1
+      - D US C1_2
+      - D US C3
       - D TW C1
       - D TW C2
       - D TW C3
-      - D HK C1
-      - D HK C2
-      - D KR C1
-      - D KR C2
-      - JP C4
-      - D TW B1
-      - D TW B2
-      - D TW B3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - D HK C1
+      - D HK C2
+      - D SG C1
+      - D SG C2
       - D JP C1
       - D JP C2
       - D JP C3
+      - D KR C1
+      - D KR C2
+      - D KR C3
+      - D US C1_1
+      - D US C1_2
+      - D US C3
       - D TW C1
       - D TW C2
       - D TW C3
-      - D HK C1
-      - D HK C2
-      - D KR C1
-      - D KR C2
-      - JP C4
-      - D TW B1
-      - D TW B2
-      - D TW B3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - D HK C1
+      - D HK C2
+      - D SG C1
+      - D SG C2
       - D JP C1
       - D JP C2
       - D JP C3
+      - D KR C1
+      - D KR C2
+      - D KR C3
+      - D US C1_1
+      - D US C1_2
+      - D US C3
       - D TW C1
       - D TW C2
       - D TW C3
-      - D HK C1
-      - D HK C2
-      - D KR C1
-      - D KR C2
-      - JP C4
-      - D TW B1
-      - D TW B2
-      - D TW B3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - D HK C1
+      - D HK C2
+      - D SG C1
+      - D SG C2
       - D JP C1
       - D JP C2
       - D JP C3
+      - D KR C1
+      - D KR C2
+      - D KR C3
+      - D US C1_1
+      - D US C1_2
+      - D US C3
       - D TW C1
       - D TW C2
       - D TW C3
-      - D HK C1
-      - D HK C2
-      - D KR C1
-      - D KR C2
-      - JP C4
-      - D TW B1
-      - D TW B2
-      - D TW B3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - D HK C1
+      - D HK C2
+      - D SG C1
+      - D SG C2
       - D JP C1
       - D JP C2
       - D JP C3
+      - D KR C1
+      - D KR C2
+      - D KR C3
+      - D US C1_1
+      - D US C1_2
+      - D US C3
       - D TW C1
       - D TW C2
       - D TW C3
-      - D HK C1
-      - D HK C2
-      - D KR C1
-      - D KR C2
-      - JP C4
-      - D TW B1
-      - D TW B2
-      - D TW B3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -167,20 +181,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - D HK C1
+      - D HK C2
+      - D SG C1
+      - D SG C2
       - D JP C1
       - D JP C2
       - D JP C3
+      - D KR C1
+      - D KR C2
+      - D KR C3
+      - D US C1_1
+      - D US C1_2
+      - D US C3
       - D TW C1
       - D TW C2
       - D TW C3
-      - D HK C1
-      - D HK C2
-      - D KR C1
-      - D KR C2
-      - JP C4
-      - D TW B1
-      - D TW B2
-      - D TW B3
 
 rules:
 # 本地/局域网地址
